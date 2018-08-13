@@ -89,6 +89,32 @@
 // The value of i is: 9 of 10
 // The value of i is: 10 of 10
 
-for (let i = 1; i <= 10; i++) {
-	console.log(`The value of i is: ${i} of 10`);
+// for (let i = 1; i <= 10; i++) {
+// 	console.log(`The value of i is: ${i} of 10`);
+// }
+
+
+
+// Iteration
+const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
+// Iterate over the StarWars array and print each element to the console.
+
+// Iterate over the StarWars array again and print each character's name as well as the value of i.
+
+for (let i=0; i < StarWars.length; i++) {
+	console.log(StarWars[i]);
 }
+
+// CHALLENGE
+
+// Figure out how to iterate over every second element of the StarWars array, starting with the first element.
+// => Han, R2D2, Leia
+
+// Skip this challenge if you end up spending too much time on it.
+
+for (let i=0; i < StarWars.length; i+= 2) {
+	console.log(StarWars[i]);
+}
+
+
+
