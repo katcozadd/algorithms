@@ -96,25 +96,78 @@
 
 
 // Iteration
-const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
-// Iterate over the StarWars array and print each element to the console.
+// const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
+// // Iterate over the StarWars array and print each element to the console.
 
-// Iterate over the StarWars array again and print each character's name as well as the value of i.
+// // Iterate over the StarWars array again and print each character's name as well as the value of i.
 
-for (let i=0; i < StarWars.length; i++) {
-	console.log(StarWars[i]);
+// for (let i=0; i < StarWars.length; i++) {
+// 	console.log(StarWars[i]);
+// }
+
+// // CHALLENGE
+
+// // Figure out how to iterate over every second element of the StarWars array, starting with the first element.
+// // => Han, R2D2, Leia
+
+// // Skip this challenge if you end up spending too much time on it.
+
+// for (let i=0; i < StarWars.length; i+= 2) {
+// 	console.log(StarWars[i]);
+// }
+
+
+
+// 1
+// Write a while loop that will log in the console
+
+// 'Ginger chocolate honey patties'
+// 1000 times. You can test it out with a smaller number first, such as 10, and when that works, use 1000.
+
+// Make sure you do not run an infinite loop! If you do, close your Terminal. Oops!
+
+// let i = 0;
+
+// while (i < 10) {
+// 	console.log("Ginger chocolate honey patties ");
+// 	i++;
+// }
+
+
+
+// Write another while loop that counts from 0 to 1000 and will log in the console the current loop number.
+
+// => 0
+// => 1
+// => 2
+// => 3
+// etc.
+
+// let i = 0;
+
+// while (i <= 1000) {
+// 	console.log(i);	
+// 	i++;
+// }
+
+
+// Write another while loop that prints a message to the console and interpolates the current loop number. Make it count from 0 to 1000.
+
+// => "Current loop number is: 0"
+
+// => "Current loop number is: 1"
+
+// => "Current loop number is: 2"
+
+// => "Current loop number is: 3"
+
+let i = 0;
+
+while (i <= 1000) {
+	console.log(`Current loop number is: ${i}`)
+	i++;
 }
 
-// CHALLENGE
-
-// Figure out how to iterate over every second element of the StarWars array, starting with the first element.
-// => Han, R2D2, Leia
-
-// Skip this challenge if you end up spending too much time on it.
-
-for (let i=0; i < StarWars.length; i+= 2) {
-	console.log(StarWars[i]);
-}
 
 
 
